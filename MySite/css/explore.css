@@ -1,0 +1,159 @@
+body{
+background-color: #1E2327;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header img{
+width: 100%;
+}
+header{
+width:100%;
+background-color:#000000;
+}
+.content { 
+ width: 80%;
+margin: 5px 0px 5px 60px;
+padding: 3px 0px 3px 10px;
+background-color: #5A656E;
+box-shadow: 5px 5px 5px #000033;
+
+}
+nav{
+text-align: center;
+padding: 0;
+font-weight: bold;
+float: right;
+width: 160px;
+}
+#foot{
+float:left;
+width: 90%;
+}
+#wrapper { margin-left:auto;
+           margin-right: auto;	
+width:100%
+min-width:960px;		   
+}
+#list{
+list-style-type: none;
+		  
+}
+nav ul li{
+padding: 10px 0px 10px 0px;
+border: 1px solid white;
+list-style-type: none;
+width:100%;
+font-size: 1.2em;
+border-radius: 5px;
+margin: 5px 0px 5px 0;
+background-color: #5A656E;
+
+
+}
+
+a:link{color: #0C1720;
+text-decoration: none;
+}
+a:visited{color: #0C1720;
+text-decoration: none;
+}
+a:hover{color: #FFFFFF;
+text-decoration: none;
+}
+
+footer {
+ padding: 20px;
+ font-size: 75%; 
+font-style: italic;
+border: 1px solid black;
+
+margin: 15px;
+}
+
+.floatIMG{
+float: left;
+padding: 5px;
+
+}
+#map {
+        
+	width: 400px;
+        height: 400px;
+        margin: 50px;
+      }
+@media only screen and (max-width: 870px) 
+{
+body{
+margin: 0px;
+}
+
+#wrapper{
+min-width: 0px;
+width:100%;
+}
+
+#content{
+margin-left: auto;
+margin-right:auto;
+width:100%;
+}
+
+nav{
+float:none;
+width: 100%;
+padding: 0px;
+}
+nav ul {
+text-align: center;
+
+}
+nav li{
+display: inline;
+padding: 0;
+list-style-type: none;
+width:100%;
+background-color: #5A656E;
+border-left: 1 px #000000;
+margin:0;
+}
+footer{margin-left: 0;}
+}
+
+
+@media only screen and (max-width: 600px){
+body{margin: 0;}
+#wrapper{
+width:0;
+min-width: 0;
+margin:0;
+}
+#content{
+padding: 0.1em 1em 0.1em 1em;
+margin: 0;
+font-size: 90%;
+}
+h1{
+margin:0;
+font-size: 1.5em;
+padding-left: 0.3em;
+}
+nav ul{
+padding:0;
+}
+nav li{
+display:block;
+margin:0;
+border-bottom: 2px #330000;
+}
+
+nav a href url{
+display:block;
+}
+
+#map {
+        
+	width: 180px;
+        height: 180px;
+        margin: 10px;
+      }
