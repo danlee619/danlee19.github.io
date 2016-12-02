@@ -14,10 +14,10 @@ background-color:#000000;
 .content { 
  width: 80%;
 margin: 5px 0px 5px 60px;
-padding: 3px 0px 3px 10px;
+padding: 3px 10px 3px 10px;
 background-color: #5A656E;
 box-shadow: 5px 5px 5px #000033;
-
+overflow: hidden;
 }
 nav{
 text-align: center;
@@ -74,14 +74,9 @@ margin: 15px;
 .floatIMG{
 float: left;
 padding: 5px;
-
+margin: 5px;
 }
-#map {
-        
-	width: 400px;
-        height: 400px;
-        margin: 50px;
-      }
+
 @media only screen and (max-width: 870px) 
 {
 body{
