@@ -15,9 +15,10 @@ background-color:#000000;
  width: 80%;
 margin: 5px 0px 5px 60px;
 padding: 3px 10px 3px 10px;
-background-color: #5A656E;
-box-shadow: 5px 5px 5px #000033;
+background-color:#CCCCFF;
+box-shadow: 5px 5px 5px #6699CC;
 overflow: hidden;
+text-align: justify;
 }
 nav{
 text-align: center;
